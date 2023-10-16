@@ -14,7 +14,7 @@
     <name>finnanceapi</name>
     <description>finnanceapi</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -46,19 +46,6 @@
                             <artifactId>lombok</artifactId>
                         </exclude>
                     </excludes>
-                </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.11.0</version>
-                <configuration>
-                    <release>11</release>
-                    <compilerArgs>
-                        <arg>-Xlint:all</arg>
-                        <!-- Any other necessary compiler arguments -->
-                    </compilerArgs>
                 </configuration>
             </plugin>
         </plugins>
